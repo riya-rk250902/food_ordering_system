@@ -13,7 +13,7 @@ export default function Login() {
       {
           console.log(response.data);
           localStorage.setItem("token",response.data.token);
-          window.location.href="/home";
+          window.location.href="/";
       }
     }).catch(function(error){
       console.log(error);
