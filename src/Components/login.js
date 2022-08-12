@@ -1,10 +1,9 @@
 import React,{useState} from 'react';
 import axios from 'axios';
 export default function Login() {
-  const [useremail, setuseremail] = useState();
-  const [password,setpassword] = useState(); 
-  async function handleSignin() 
-  { 
+  const [useremail, setEmail] = useState();
+  const [password,setPass] = useState(); 
+  async function handleSignin() { 
     const user = {
       useremail,
       password,
@@ -12,11 +11,11 @@ export default function Login() {
     await axios.post("http://localhost:4000/api/login",user).then(function(response){
       if(response.data.token)
       {
+          console.log(response.data);
           localStorage.setItem("token",response.data.token);
-          window.location.href="/";
+          window.location.href="/home";
       }
-    }).catch(function(error)
-    {
+    }).catch(function(error){
       console.log(error);
     })  
   }
@@ -37,7 +36,7 @@ export default function Login() {
             <input
               type="email"
               onChange={(e) =>{
-                setuseremail(e.target.value);
+                setEmail(e.target.value);
               }}
               className="block w-full px-4 py-2 mt-2 text-purple-700 bg-white border rounded-md focus:border-purple-400
                          focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
@@ -53,7 +52,7 @@ export default function Login() {
             <input
               type="password"
               onChange={(e) =>{
-                setpassword(e.target.value);
+                setPass(e.target.value);
                 
               }}
               className="block w-full px-4 py-2 mt-2 text-purple-700 bg-white border rounded-md focus:border-purple-400
@@ -64,7 +63,7 @@ export default function Login() {
             Forget password ?
           </a>
           <div className="mt-6">
-            <button onClick={() =>
+            <button onClick={ () =>
           {
             handleSignin();
           }}
