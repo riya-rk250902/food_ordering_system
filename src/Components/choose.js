@@ -6,7 +6,7 @@ import assestsxi from '../assestsxi/homedelivery.jpg';
 function Choose() {
   return (
     <div className="gallery1">
-    <div className="content2">
+      <div className="content2">
     <img  src={assestsix} alt="foodimg"/>
        <h3>Fast Delivery</h3>
        <p>Keep your systems in sync with automated 
@@ -28,6 +28,7 @@ function Choose() {
         notifications each tume link is paid and 
         how we dream about our future.</p> 
     </div>
+      
     </div>
   )
 }

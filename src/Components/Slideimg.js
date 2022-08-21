@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState} from "react";
 import {AiOutlineVerticalRight, AiOutlineVerticalLeft} from "react-icons/ai";
 const featureProducts=[
      "/assests/foodimg1.jpg",
@@ -8,7 +8,6 @@ const featureProducts=[
   let count = 0;
 export default function Slider() {
     const [currentIndex,setCurrentIndex] = useState(0);
-
     useEffect(() => {
       startSlider()
     }, [])

@@ -15,11 +15,12 @@ export default function Signup() {
       phonenumber,
       password,
     };
-    await axios.post("http://localhost:4000/api/signup", user).then(function (response) {
-       if(response.data)
-       {
+    console.log(user);
+   axios.post("http://localhost:4000/api/signup", user).then(function (response) {
+       
           window.location.href="/login";
-       }
+          console.log(response.data)
+       
   }).catch(function(error){
     console.log(error);
   })
@@ -78,7 +79,7 @@ export default function Signup() {
           <button onClick={ ()=>{
             handlesignup();
           }}
-            type="submit"
+          
             class="w-full text-center py-3 rounded bg-purple-700 text-white hover:bg-green-dark focus:outline-none my-1"
           >
             Create Account
