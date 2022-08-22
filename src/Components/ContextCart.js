@@ -4,23 +4,24 @@ import Item from "./Item";
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { CartContext } from './cart';
 const ContextCart = () => {
-    const { item }= useContext(CartContext);
+    const { item, totalAmount,totalItems }= useContext(CartContext);
   return (
     <>
    <div>
     <Navbar/>
    <section className="main-cart-section">
     <h1>Shopping Cart</h1>
-    <p className="total-items">your have<span className="total-items-count"> 3 </span> items in shopping cart</p>
+    <p className="total-items">
+      you have <span className="total-items-count"> {totalItems} </span> 
+      items in shopping cart
+      </p>
     <div className="cart-items">
       <div className="cart-items-container">
         <Scrollbars>
           {
             item.map((curItem)  => {
-           return <Item  key={ curItem.id } {...curItem} />
-            })
-          }
-        
+           return <Item  key={ curItem.id } {...curItem} />;
+            })}
         </Scrollbars>
       </div>
     </div>
