@@ -8,20 +8,20 @@ export const reducer =(state, action) => {
         };
     }
     if(action.type === "INCREMENT"){
-        const updatedCart = state.item.map((curElem) =>{
+        const updatedCart = state.item.map((curElem) => {
             if(curElem.id === action.payload){
-                return { ...curElem, quantity:curElem.quantity + 1 };
+                return { ...curElem, quantity: curElem.quantity + 1 };
             }
             return curElem;
         });
-        return {...state,item:updatedCart};
+        return {...state,item: updatedCart};
     }
 
     if(action.type ==="DECREMENT"){
         // kis item ke liye click kia
-        const updatedCart = state.item.map((curElem) =>{
+        const updatedCart = state.item.map((curElem) => {
             if(curElem.id === action.payload){
-                return{...curElem, quantity:curElem.quantity - 1};
+                return{...curElem, quantity: curElem.quantity - 1};
             }
             return curElem;
         })
@@ -31,20 +31,21 @@ export const reducer =(state, action) => {
     }
    
     if(action.type === "GET_TOTAL") {
-        let { totalItem, totalAmount } = state.item.reduce(
+        let { totalItems, totalAmount } = state.item.reduce(
             (accum, curVal) => {
             let {price, quantity } = curVal;
+
             let updatedTotalAmount = price * quantity;
             accum.totalAmount += updatedTotalAmount
             accum.totalItem += quantity;
             return accum;
         },
         {
-            totalItem:0,
+            totalItems:0,
             totalAmount:0,
         }
     );
-    return { ...state, totalItem, totalAmount };
+    return { ...state, totalItems, totalAmount };
 }
     return state;
 };

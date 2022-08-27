@@ -9,6 +9,7 @@ import assestsv from '../assestsv/soup.jpg';
 import assestsvi from '../assestsvi/snacks.jpg';
 import assestsvii from '../assestsvii/cakes.jpg';
 function Products() {
+   
   return (
     <div className="gallery">
     <div className="content1">

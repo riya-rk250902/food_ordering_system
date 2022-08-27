@@ -7,6 +7,7 @@ import Pdetails from "./Components/pdetails";
 import Products from "./Components/products";
 import Cart from "./Components/cart";
 import Checkout from "./Components/checkout";
+import Index from "./Components/pages/thankyou";
 function App() {
   return (
     <div className="page-container">
@@ -20,6 +21,7 @@ function App() {
             <Route exact path="/products" element={<Products />}></Route>
             <Route exact path="/cart" element={<Cart />}></Route>
             <Route exact path ="/checkout" element={<Checkout />}></Route>
+            <Route exact path="/thankyou" element={<Index />}></Route>
           </Routes>
         </Router>
       </div>

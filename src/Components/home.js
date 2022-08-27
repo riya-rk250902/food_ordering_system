@@ -3,10 +3,10 @@ import React from "react";
 import Navbar from "./Navbar";
 import Slideimg from "./Slideimg";
 import Products from './products';
+import Head from './head';
 import Choose from "./choose";
-import Footer from "./footer";
 import Newsletter from "./newsletter";
-import Head from "./head";
+import Footer from "./footer";
 function Home() {
   return <div>
     <Navbar/>
@@ -14,7 +14,7 @@ function Home() {
     <Products/>
     <Head/>
     <Choose/>
-    <Newsletter/>
+   <Newsletter/>
     <Footer/>
      <div>
     </div>
