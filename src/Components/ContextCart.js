@@ -5,7 +5,6 @@ import { Scrollbars } from 'react-custom-scrollbars-2';
 import { CartContext } from './cart';
 const ContextCart = () => {
     const { item, totalAmount,totalItems }= useContext(CartContext);
-    
     if(item.length === 0) {
   return (
     <> 

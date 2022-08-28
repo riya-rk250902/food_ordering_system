@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap');
-html,body {
-    font-family: 'Raleway', sans-serif;  
-}
+
 .thankyou-page ._header {
     background:cornflowerblue;
     padding: 100px 30px;
     text-align: center;
     background: cornflowerblue url(https://codexcourier.com/images/main_page.jpg) center/cover no-repeat;
 }
+/*
 .thankyou-page ._header .logo {
     max-width: 200px;
     margin: 0 auto 50px;
@@ -15,6 +14,7 @@ html,body {
 .thankyou-page ._header .logo img {
     width: 100%;
 }
+*/
 .thankyou-page ._header h1 {
     font-size: 65px;
     font-weight: 800;

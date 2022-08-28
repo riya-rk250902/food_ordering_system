@@ -50,6 +50,7 @@ const Cart=() =>{
     //console.log( "items added/removed in cart" );
    },[state.item]);
 
+    
   return (
     // we have passed productii as globally means data in any component i can easily access data.// 
   <CartContext.Provider 

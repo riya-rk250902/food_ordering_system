@@ -12,6 +12,7 @@ html {
   font-size: 55.5%;
 }
 
+
 :root {
   --main-color: #333;
   --primary-color: #acacac;
@@ -37,6 +38,8 @@ body {
   height: 100vh;
   margin: auto;
 }
+
+
 
 header {
   width: 100%;

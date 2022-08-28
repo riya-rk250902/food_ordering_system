@@ -212,7 +212,7 @@ class App extends React.Component {
           </div>
 
           <footer class="my-5 pt-5 text-muted text-center text-small">
-            <p class="mb-1">&copy; 2020-2021 therichpost.com</p>
+            <p class="mb-1">&copy; 2020-2021 foodify.com</p>
             <ul class="list-inline">
               <li class="list-inline-item"><a href="#">Privacy</a></li>
               <li class="list-inline-item"><a href="#">Terms</a></li>

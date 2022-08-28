@@ -5,10 +5,8 @@ class Index extends React.Component{
         return(
         <div>
         <div class="thankyou-page">
-
     <div class="_header">
-    
-     <h1>Thank You!</h1>
+     <h1>Thank You for ordering!</h1>
     </div>
     <div class="_body">
         <div class="_box">
@@ -25,7 +23,7 @@ class Index extends React.Component{
         <a class="btn" href="">Back to homepage</a>
     </div>
 </div>
-        </div>
+    </div>
         );
     }
 }

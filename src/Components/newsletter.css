@@ -6,14 +6,7 @@
     font-family: "Montserrat";
     box-sizing: border-box;
   }
-  
-  body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  .container{
+  .container5{
     position: relative;
     padding: 50px 20px;
     height: 350px;
@@ -22,8 +15,9 @@
     border-radius:20px;
     box-shadow: 0 5px 25px rgba(0,0,0,0.2);
     margin-bottom: 30px;
+    margin-left: 50vh;
   }
-  .container h2{
+  .container5 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font:bolder;
     color:#111;
@@ -33,18 +27,18 @@
     padding-left: 10px;
     border-left:5px solid #e91e63;
   }
-  .container .inputBox
+  .container5 .inputBox
   {
     position: relative;
     width:300px;
     height: 46px;
     margin-bottom: 35px;
   }
-  .container .inputBox:last-child
+  .container5 .inputBox:last-child
   {
      margin-bottom: 0;
   }
-  .container .inputBox input
+  .container5 .inputBox input
   {
     position: absolute;
     top:0;
@@ -60,7 +54,7 @@
     color:#111;
     font-weight: 300;
   }
-  .container .inputBox span
+  .container5 .inputBox span
   {
     font-family: Georgia, 'Times New Roman', Times, serif;
       position: absolute;
@@ -75,13 +69,13 @@
       pointer-events: none;
   }
 
-  .container .inputBox input:focus ~ span,
-  .container .inputBox input:valid ~ span
+  .container5 .inputBox input:focus ~ span,
+  .container5 .inputBox input:valid ~ span
   {
     transform: translateY(-40px) translateX(-32px);
     font-size: 12px;
   }
-  .container .inputBox input[type="submit"]
+  .container5 .inputBox input[type="submit"]
   {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #2196f3;
@@ -90,7 +84,7 @@
     cursor: pointer;
     font-weight: 500;
   }
- .container .inputBox input[type="submit"]:hover
+ .container5 .inputBox input[type="submit"]:hover
  {
   background:greenyellow;
 

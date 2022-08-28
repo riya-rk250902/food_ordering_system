@@ -3,8 +3,8 @@ import "./newsletter.css";
 export default function Newsletter() {
   return (
     <div>
-      <div class="container">
-            <h2>Our Newsletter</h2>
+      <div class="container5">
+            <h2>Subscribe our Newsletter for more updates.</h2>
             <form>
                 <div class="inputBox">
                     <input type="text" required="required"/>
