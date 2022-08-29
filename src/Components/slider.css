@@ -1,0 +1,28 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+.maindiv{
+   width:70%;
+   height:400px;
+   position: absolute;
+   left:50%;
+   transform: translate(-50%,-50%);
+   top: 50%;
+   background-image: url('https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   background-size: 100% 100%;
+   box-shadow:1px 2px 10px 5px white;
+   animation: slider 10s infinite linear;
+}
+@keyframes slider{
+   0%{ background-image: url('https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); }
+   15%{ background-image: url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); }
+   30%{ background-image: url('https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); }
+   45%{ background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); }
+   60%{background-image: url('https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); }
+   75%{background-image: url('https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); }
+   90%{background-image: url('https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); }
+}
