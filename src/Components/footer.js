@@ -1,9 +1,11 @@
 import React from 'react'
-
+import "./footer.css";
 export default function Footer() {
   return (
+	<div className="myfooter">
+	<div class="relative top-96">
 <div class="max-w-2xl mx-auto">
-	<footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
+	<footer class="p-4 bg-black sm:p-6 dark:bg-gray-800">
 		<div class="md:flex md:justify-between">
 			<div class="mb-6 md:mb-0">
 				<a href="#" target="_blank" class="flex items-center">
@@ -91,6 +93,8 @@ export default function Footer() {
 			</div>
 		</div>
 	</footer>
+</div>
+</div>
 </div>
  );
 }

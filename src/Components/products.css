@@ -3,6 +3,7 @@ body{
     font-family:sans-serif;
     background:#f2f2f2;
 }
+
 h3{
     text-align: center;
     font-size:30px;
@@ -13,6 +14,8 @@ a{
     text-decoration: none;
 }
    .gallery{
+     position: relative;
+     top: 450px;
     display:flex;
     flex-wrap: wrap;
     width: 100%;

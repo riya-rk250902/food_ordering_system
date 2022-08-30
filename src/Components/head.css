@@ -1,4 +1,6 @@
 .head1{
+    position: relative;
+    top: 430px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font:500;
     position: relative;

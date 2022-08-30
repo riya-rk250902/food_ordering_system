@@ -20,6 +20,8 @@ a{
     text-decoration: none;
 }
 .gallery1{
+    position:relative;
+    top:400px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
