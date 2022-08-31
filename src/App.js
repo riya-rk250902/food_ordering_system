@@ -4,7 +4,7 @@ import Login from "./Components/login";
 import Signup from "./Components/signup";
 import Home from "./Components/home";
 import Pdetails from "./Components/pdetails";
-import Products from "./Components/products";
+import Product from "./Components/product";
 import Cart from "./Components/cart";
 import Checkout from "./Components/checkout";
 import Index from "./Components/pages/thankyou";
@@ -18,7 +18,7 @@ function App() {
             <Route exact path="/signup" element={<Signup />}></Route>
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/food/:id" element={<Pdetails />}></Route>
-            <Route exact path="/products" element={<Products />}></Route>
+            <Route exact path="/product" element={<Product />}></Route>
             <Route exact path="/cart" element={<Cart />}></Route>
             <Route exact path ="/checkout" element={<Checkout />}></Route>
             <Route exact path="/thankyou" element={<Index />}></Route>

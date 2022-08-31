@@ -1,5 +1,5 @@
 import React from 'react';
-import "./products.css";
+import "./product.css";
 import assestsviii from '../assestsviii/foodimg1.jpg'; 
 import assestsi from '../assestsi/sweets.jpg';
 import assestsii from '../assestsii/breakfast.jpg';
@@ -8,7 +8,7 @@ import assestsiv from '../assestsiv/salad.jpg';
 import assestsv from '../assestsv/soup.jpg';
 import assestsvi from '../assestsvi/snacks.jpg';
 import assestsvii from '../assestsvii/cakes.jpg';
-function Products() {
+function Product() {
    
   return (
     <div className="gallery">
@@ -80,4 +80,4 @@ function Products() {
   );
 };
 
-export default Products;
+export default Product;

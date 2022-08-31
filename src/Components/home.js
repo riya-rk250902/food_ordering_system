@@ -2,7 +2,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Slideimg from "./Slideimg";
-import Products from './products';
+import Product from './product';
 import Head from './head';
 import Choose from "./choose";
 import Newsletter from "./newsletter";
@@ -11,7 +11,7 @@ function Home() {
   return <div>
     <Navbar/>
     <Slideimg/>
-    <Products/>
+    <Product/>
     <Head/>
     <Choose/>
    <Newsletter/>
