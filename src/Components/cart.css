@@ -278,9 +278,10 @@ header {
 }
 
 .card-total button {
+
   border: none;
   font-size: 1.6rem;
-  padding: 1rem 3rem;
+  padding: 15px;
   color: #fff;
   background-color: #349bf3;
   text-transform: uppercase;
@@ -318,6 +319,10 @@ header {
 
 .card-total .clear-cart:hover {
   background-color: rgb(197, 5, 5);
+}
+
+.card-total .back-again{
+  background-color: #42c157;
 }
 
 /* responsive media queries  */

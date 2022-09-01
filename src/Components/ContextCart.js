@@ -73,6 +73,9 @@ const ContextCart = () => {
           <button className="clear-cart" onClick={clearCart}>
             Clear Cart
           </button>
+          <button className="back-again" onClick={() =>{
+         window.location.href= "/"
+       }}>back</button>
         </div>
       </section>
     </>

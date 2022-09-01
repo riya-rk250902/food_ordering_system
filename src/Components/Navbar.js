@@ -6,10 +6,10 @@ const Navbar = () => {
     <div className="Navbar">
       <span className="nav-logo">Foodify.com</span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/service">Service</a>
-        <a href="/contact">Contact</a>
+        <a href="/">Home</a>
+        <a href="/signup">Signup</a>
+        <a href="/login">Login</a>
+        <a href="/">Contact us</a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}
