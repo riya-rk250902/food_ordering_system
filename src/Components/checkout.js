@@ -6,13 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends React.Component {
   render() {
     return (
-      <div className="maincontainer">
+      <div className="maincontainerr">
         <Navbar/>
         <div class="container1">
           <div class="py-5 text-center">
-            <h2>Checkout form</h2>
+            <h1 className='my-heading'>Checkout form</h1>
           </div>
-          <div class="row">
+          
+          {/* <div class="row">
             <div class="col-md-4 order-md-2 mb-4">
               <h4 class="d-flex justify-content-between align-items-center mb-3">
                 <span class="text-muted">Your cart</span>
@@ -61,7 +62,9 @@ class App extends React.Component {
                   </div>
                 </div>
               </form>
-            </div>
+            </div> */}
+
+
             <div class="col-md-8 order-md-1">
               <h4 class="mb-3">Billing address</h4>
               <form class="needs-validation" novalidate>
@@ -206,7 +209,10 @@ class App extends React.Component {
                   </div>
                 </div>
                 <hr class="mb-4" />
-                <button class="btn btn-primary btn-lg btn-block" type="button">Continue to checkout</button>
+                <button  onClick={() =>{
+         window.location.href= "/thankyou"
+       }}
+                 class="btn btn-primary btn-lg btn-block" type="button">Continue to checkout</button>
               </form>
             </div>
           </div>
@@ -221,7 +227,7 @@ class App extends React.Component {
           </footer>
         </div>
      
-      </div>
+ //     </div>
       
 )
 };

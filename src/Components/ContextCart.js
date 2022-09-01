@@ -67,7 +67,9 @@ const ContextCart = () => {
           <h3>
             Cart Total : <span>{totalAmount}₹</span>
           </h3>
-          <button>checkout</button>
+          <button  onClick={() =>{
+         window.location.href= "/checkout"
+       }}>checkout</button>
           <button className="clear-cart" onClick={clearCart}>
             Clear Cart
           </button>

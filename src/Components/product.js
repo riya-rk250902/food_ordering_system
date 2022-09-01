@@ -17,7 +17,9 @@ function Product() {
        <h3>salad</h3>
        <p>healthy salad for your fitness.</p>
        <h6>50$</h6>
-       <button className='b1'>buy now!</button>
+       <button onClick={() =>{
+         window.location.href= "/cart"
+       }}className='b1'>buy now!</button>
     </div>
      
     <div className="content1">
@@ -25,7 +27,9 @@ function Product() {
        <h3>Sweets</h3>
        <p> celebrate the festive season.</p>
        <h6>70$</h6>
-       <button className='b2'>buy now!</button>
+       <button  onClick={() =>{
+         window.location.href= "/cart"
+       }}className='b2'>buy now!</button>
     </div>
 
     <div className="content1">
@@ -33,7 +37,9 @@ function Product() {
     <h3>breakfast</h3>
     <p>breakfast: to start your day</p>
     <h6>110$</h6>
-    <button className='b3'>buy now!</button>
+    <button  onClick={() =>{
+         window.location.href= "/cart"
+       }}className='b3'>buy now!</button>
  </div>
 
  <div className="content1">
@@ -41,7 +47,9 @@ function Product() {
        <h3>Lunch</h3>
        <p>book your lunch here</p>
        <h6>150$</h6>
-       <button className='b4'>buy now!</button>
+       <button  onClick={() =>{
+         window.location.href= "/cart"
+       }} className='b4'>buy now!</button>
     </div>
 
     <div className="content1">
@@ -49,7 +57,9 @@ function Product() {
        <h3>Dinner</h3>
        <p>end your day with a happy meal.</p>
        <h6>200$</h6>
-       <button className='b5'>buy now!</button>
+       <button  onClick={() =>{
+         window.location.href= "/cart"
+       }}className='b5'>buy now!</button>
     </div>
 
     <div className="content1">
@@ -57,7 +67,9 @@ function Product() {
        <h3>soups</h3>
        <p>healthy vegetable soups.</p>
        <h6>100$</h6>
-       <button className='b5'>buy now!</button>
+       <button  onClick={() =>{
+         window.location.href= "/cart"
+       }}className='b5'>buy now!</button>
     </div>
    
     <div className="content1">
@@ -65,7 +77,9 @@ function Product() {
        <h3>snacks</h3>
        <p>for your midnight cravings.</p>
        <h6>80$</h6>
-       <button className='b5'>buy now!</button>
+       <button  onClick={() =>{
+         window.location.href= "/cart"
+       }}className='b5'>buy now!</button>
     </div>
   
     <div className="content1">
@@ -73,7 +87,9 @@ function Product() {
        <h3>cakes and muffins</h3>
        <p>make your birthdays special.</p>
        <h6>250$</h6>
-       <button className='b5'>buy now!</button>
+       <button  onClick={() =>{
+         window.location.href= "/cart"
+       }}className='b5'>buy now!</button>
     </div>
  </div>
 

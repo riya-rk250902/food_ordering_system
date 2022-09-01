@@ -8,6 +8,15 @@ html {
       font-size: 14px;
     }
   }
+  .maincontainerr{
+    position: relative;
+    margin-left: 80px;
+
+  }
+  .my-heading{
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
   
   .container1 {
     max-width: 960px;
