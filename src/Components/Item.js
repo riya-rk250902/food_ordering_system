@@ -17,9 +17,13 @@ const Items = ({ id, description, title, img, price, quantity }) => {
         </div>
 
         <div className="add-minus-quantity">
-          <i className="fas fa-minus minus" onClick={() => decrement(id)}></i>
+          <i className="fas fa-minus minus" onClick={() => decrement(id)}>
+          <img src="./images/minus.png" alt="add" className="sign-minus" />
+          </i>
           <input type="text" placeholder={quantity} disabled />
-          <i className="fas fa-plus add" onClick={() => increment(id)}></i>
+          <i className="fas fa-plus add" onClick={() => increment(id)}>
+          <img src="./images/add.png" alt="minus" className="sign-plus"/>
+          </i>
         </div>
 
         <div className="price">
@@ -29,7 +33,9 @@ const Items = ({ id, description, title, img, price, quantity }) => {
         <div className="remove-item">
           <i
             className="fas fa-trash-alt remove"
-            onClick={() => removeItem(id)}></i>
+            onClick={() => removeItem(id)}>
+              <img src="./images/delete.png" alt="trash" className="trash-can"/>
+            </i>
         </div>
       </div>
 

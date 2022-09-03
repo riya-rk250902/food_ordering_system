@@ -1,3 +1,5 @@
+// here we have applied our logic of incr, decr, clear,update the data.
+
 import React, { createContext, useReducer, useEffect } from "react";
 import "./cart.css";
 import { productii } from "./productii";

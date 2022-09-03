@@ -8,7 +8,7 @@ const ContextCart = () => {
 
   if (item.length === 0) {
     return (
-      <>
+      <div>
         <header>
           <div className="continue-shopping">
             <img src="./images/arrow.png" alt="arrow" className="arrow-icon" />
@@ -28,12 +28,12 @@ const ContextCart = () => {
             items in shopping cart
           </p>
         </section>
-      </>
+        </div>
     );
   }
 
   return (
-    <>
+    <div>
       <header>
         <div className="continue-shopping">
           <img src="./images/arrow.png" alt="arrow" className="arrow-icon" />
@@ -78,7 +78,7 @@ const ContextCart = () => {
        }}>back</button>
         </div>
       </section>
-    </>
+   </div>
   );
 };
 

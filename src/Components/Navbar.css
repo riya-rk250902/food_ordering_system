@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background: #5265c4;
+    position: relative;
   }
   
   .Navbar > .nav-logo {

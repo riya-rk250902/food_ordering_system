@@ -35,7 +35,8 @@ i {
 body {
   width: 80%;
   height: 100vh;
-  margin: auto;
+  margin: 100;
+  margin-left: 10%;
 }
 
 header {
@@ -197,6 +198,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background-color: transparent;
 }
 
 .add-minus-quantity button {
@@ -323,6 +325,16 @@ header {
 
 .card-total .back-again{
   background-color: #42c157;
+}
+
+.sign-minus{
+  height: 25px;
+}
+.sign-plus{
+  height:25px;
+}
+.trash-can{
+  height:35px;
 }
 
 /* responsive media queries  */
