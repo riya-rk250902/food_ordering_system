@@ -1,11 +1,10 @@
 .head1{
     position: relative;
-    top: 430px;
+    font-size: 30px;
+     margin-top: 4px;
+     top: 443px;
+     margin-bottom: 5px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font:500;
-    position: relative;
     text-align: center;
-    font-size:medium;
-
     color:cornflowerblue;
 }

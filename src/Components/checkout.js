@@ -67,18 +67,18 @@ class App extends React.Component {
 
             <div class="col-md-8 order-md-1">
               <h4 class="mb-3">Billing address</h4>
-              <form class="needs-validation" novalidate>
+              <form class="needs-validation" noValidate>
                 <div class="row">
                   <div class="col-md-6 mb-3">
                     <label for="firstName">First name</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required />
+                    <input type="text" class="form-control" id="firstName" defaultValue="name" required />
                     <div class="invalid-feedback">
                       Valid first name is required.
                     </div>
                   </div>
                   <div class="col-md-6 mb-3">
                     <label for="lastName">Last name</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required />
+                    <input type="text" class="form-control" id="lastName" defaultvalue="last name" required />
                     <div class="invalid-feedback">
                       Valid last name is required.
                     </div>
@@ -124,7 +124,7 @@ class App extends React.Component {
                     <label for="country">Country</label>
                     <select class="custom-select d-block w-100" id="country" required>
                       <option value="">Choose...</option>
-                      <option>United States</option>
+                      <option>India</option>
                     </select>
                     <div class="invalid-feedback">
                       Please select a valid country.
@@ -134,7 +134,11 @@ class App extends React.Component {
                     <label for="state">State</label>
                     <select class="custom-select d-block w-100" id="state" required>
                       <option value="">Choose...</option>
-                      <option>California</option>
+                      <option>Delhi</option>
+                      <option>Punjab</option>
+                      <option>Jaipur</option>
+                      <option>Uttar pradesh</option>
+                      <option>Mumbai</option>
                     </select>
                     <div class="invalid-feedback">
                       Please provide a valid state.
